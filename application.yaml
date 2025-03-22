@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://shinkansen.proxy.rlwy.net:13187/railway
+    username: postgres
+    password: gKZpZUlbgpCJeloLQWCmJymsQzEQysYW
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
